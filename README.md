@@ -1,5 +1,6 @@
-# gazelle-22
-Gazelle 22 is an image recognizer
+# Gazelle 22
+
+Gazelle 22 is an image recognizer.
 
 Home page: https://gaz.ai
 
