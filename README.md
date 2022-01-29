@@ -16,18 +16,18 @@ Source code is managed [externally](https://code.botcompany.de/1033636).
 
 ## Example scripts from screenshot to copy & paste
 
-  ```img <- newImage 10 10
-  solution <- randomRect img 5 5
-  fillRect img solution (Color black)```
+    img <- newImage 10 10
+    solution <- randomRect img 5 5
+    fillRect img solution (Color black)
 
 And then a second script is analyzing the image and finding... the thing in it.
 
-  ```// make regions at full image size
-  def fullRegions colors {
-    (imageToRegions image
-      (new SnPSettings image colors)) regions
-  }
+    // make regions at full image size
+    def fullRegions colors {
+      (imageToRegions image
+        (new SnPSettings image colors)) regions
+    }
 
-  (g22_darkestRegion (fullRegions 2)) bounds```
+    (g22_darkestRegion (fullRegions 2)) bounds
   
   [Post on AGI mailing list.](https://agi.topicbox.com/groups/agi/Tddbeb61a35c03efc/tell-me-this-aint-pretty)
